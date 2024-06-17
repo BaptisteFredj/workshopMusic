@@ -1,16 +1,15 @@
+import artistsList from "./components/artists";
+import ArtistCard from "./components/ArtistCard";
 import Footer from "./components/Footer";
 
 function App() {
-
   return (
-  <>
-  
-  
-  
-  
-  
-  <Footer />
-  </>
+    <>
+      <main>
+        <ArtistCard artists={artistsList[0]} />
+        <Footer />
+      </main>
+    </>
   );
 }
 
