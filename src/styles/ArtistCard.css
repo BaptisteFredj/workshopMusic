@@ -12,6 +12,10 @@
     box-sizing: border-box;
 }
 
+main {
+    background-color: var(--primary-color);
+}
+
 main div {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -26,12 +30,10 @@ main div {
 
 div section {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: #f9f9f9;
+    background: rgb(250, 235, 208);
     padding: 15px;
     border-radius: 10px;
     text-align: center;
-
-
 }
 
 div section figure img {
@@ -42,13 +44,20 @@ div section figure img {
     border-radius: 10px;
 }
 
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 div section button {
-    background-color: var(--primary-color);
+    background-color: var(--nomdetavariable3);
     border: none;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    width: 100%;
 }
 
 div section button p {
