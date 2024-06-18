@@ -24,7 +24,7 @@ const artistsList = [
   {
     artistName: "Serge Lama",
     imgSrc:
-      "https://www.fimalac-entertainment.com/wp-content/uploads/2021/09/AA_SQR_WEB-4.jpg",
+      "https://img.nrj.fr/DgVxTqpBq6YjMKnc7B8n2tsKvE8=/800x450/smart/https%3A%2F%2Fmedia.nrj.fr%2F436x327%2F2013%2F12%2Fserge-lama_1903.jpg",
     date: "12/07/2024",
     price: 3,
     type: "Variété",

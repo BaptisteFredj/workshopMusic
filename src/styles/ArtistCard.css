@@ -1,0 +1,56 @@
+:root {
+    --primary-color: #ea8c55;
+    --nomdevariable: #300808;
+    --nomdetavariable3: #ad2e24;
+    --secondary-color4: #81171b;
+    --nomdetavariable5: #540804;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* repeat :     Répète le modèle de colonne autant de fois que nécessaire pour remplir l'espace disponible */
+    /* auto-fit :   Ajuste automatiquement le nombre de colonnes en fonction de la largeur disponible */
+    /* minmax :     Définit une taille minimale et maximale pour chaque colonne */
+    /* 300px :      Largeur minimale de chaque colonne */
+    /* 1fr :        Largeur maximale de chaque colonne, en utilisant une fraction de l'espace disponible */
+    gap: 20px;
+    padding: 20px;
+}
+
+div section {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+
+
+}
+
+div section figure img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+div section button {
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div section button p {
+    margin: 0;
+}

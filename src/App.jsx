@@ -14,13 +14,15 @@ function App() {
       <main>
         <NavBar Panier={panier} />
         <FilterBar />
-        {artistsList.map((artist, index) => (
-          <ArtistCard
-            key={index}
-            artist={artist}
-            tools={{ panier, setPanier }}
-          />
-        ))}
+        <div>
+          {artistsList.map((artist, index) => (
+            <ArtistCard
+              key={index}
+              artist={artist}
+              tools={{ panier, setPanier }}
+            />
+          ))}
+        </div>
         <Panier Panier={panier} />
       </main>
       <Footer />
