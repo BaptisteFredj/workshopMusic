@@ -1,3 +1,5 @@
+import '../styles/ArtistCard.css';
+
 function ArtistCard({ artist }) {
   return (
     <>
