@@ -1,4 +1,8 @@
-function ArtistCard({ artist }) {
+function ArtistCard({ artist, tools }) {
+  const addArticle = () => {
+    tools.setPanier((panierActuel) => [...panierActuel, artist]);
+  };
+
   return (
     <>
       <section>
@@ -9,7 +13,7 @@ function ArtistCard({ artist }) {
               <h2>{artist.artistName}</h2>
               <p>{artist.date}</p>
               <p>{artist.dayTime === "jour" ? "☀️" : "🌛"}</p>
-              <button>
+              <button onClick={addArticle}>
                 <p>{artist.price} €</p>
               </button>
             </div>
