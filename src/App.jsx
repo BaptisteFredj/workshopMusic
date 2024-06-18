@@ -7,12 +7,19 @@ function App() {
   return (
     <>
       <main>
+
         <NavBar />
-        {artistsList.map((artist, index) => (
-          <ArtistCard key={index} artist={artist} />
-        ))}
+
+        <div>
+
+          {artistsList.map((artist, index) => (
+            <ArtistCard key={index} artist={artist} />
+          ))}
+
+        </div>
 
         <Footer />
+
       </main>
     </>
   );
