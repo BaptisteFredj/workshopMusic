@@ -1,7 +1,9 @@
-// import Footer from "./components/styles/Footer.css"
+import '../styles/Footer.css';
 export default function Footer () {
 return ( 
     <>
+    <footer
+    className='footer'>
     <p>S&apos;abonner à la newsletter :</p>
     <input type="votre@email.com" />
     <ul>
@@ -9,6 +11,7 @@ return (
         <li><img src="src/assets/logo-facebook1.png" alt="logo facebook" /></li>
         <li><img src="src/assets/logo-x.png" alt="logo X" /></li>
     </ul>
+    </footer>
     </>
 )
 }
