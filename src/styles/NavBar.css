@@ -18,11 +18,11 @@
     background-color: #81171B;
 }
 
-img {
-    max-width: 80px;
+nav>img {
+    max-width: 120px;
 }
 
-ul {
+.navList {
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -33,10 +33,10 @@ ul {
     list-style: none;
 }
 
-a {
+.navList a {
     text-decoration: none;
 }
 
-a:visited {
+.navList a:visited {
     color: rgb(236, 230, 230);
 }
