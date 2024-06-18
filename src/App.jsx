@@ -13,7 +13,6 @@ function App() {
     <>
       <main>
         <NavBar Panier={panier} />
-        <FilterBar />
         <div>
           {artistsList.map((artist, index) => (
             <ArtistCard
