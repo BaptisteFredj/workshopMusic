@@ -15,7 +15,7 @@ const artistsList = [
     imgSrc:
       "https://sf1.telestar.fr/wp-content/uploads/telestarv2/2023/01/liane-foly-pressee-participer-danse-avec-les-stars-veux-faire-mieux-andre-manoukian.jpg",
     date: "11/07/2024",
-    price: 1.2,
+    price: 1.5,
     type: "Variété",
     dayTime: "nuit",
     description:
