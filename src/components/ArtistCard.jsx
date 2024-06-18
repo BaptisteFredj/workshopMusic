@@ -1,16 +1,16 @@
-function ArtistCard({ artists }) {
+function ArtistCard({ artist }) {
   return (
     <>
       <section>
         <figure>
-          <img src={artists.imgSrc} alt={artists.artistName} />
+          <img src={artist.imgSrc} alt={artist.artistName} />
           <figcaption>
             <div className="card-content">
-              <h2>{artists.artistName}</h2>
-              <p>{artists.date}</p>
-              <p>{artists.dayTime === "jour" ? "☀️" : "🌛"}</p>
+              <h2>{artist.artistName}</h2>
+              <p>{artist.date}</p>
+              <p>{artist.dayTime === "jour" ? "☀️" : "🌛"}</p>
               <button>
-                <p>{artists.price} €</p>
+                <p>{artist.price} €</p>
               </button>
             </div>
           </figcaption>
